@@ -1,0 +1,20 @@
+.buttons {
+    justify-content: space-between;
+    margin: 20px 0 20px 10px;
+    width: 82vw;
+}
+
+.buttons button {
+    width: 410px;
+    height: 54px;
+    border-radius: 100px;
+    background: #0085FF;
+    transition: 0.3s;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+
+.buttons button:hover {
+    background-color: #59AFFF;
+}
