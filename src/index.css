@@ -9,14 +9,18 @@ div {
   font-size: 18px;
 }
 
-.section-one {
-  width: 50%;
-  height: 100vh;
+.App {
+  flex-direction: column;
+  width: 100%;
+}
+
+.section {
+  height: 90px;
   flex-direction: column;
   background: #0085FF;
   align-items: center;
   color: white;
-  padding: 0 20px;
+  width: 100%;
 }
 
 .logo {
@@ -24,28 +28,6 @@ div {
   margin: 20px 0;
 }
 
-.info-window {
-  width: 219px;
-  height: 142px;
-  padding: 20px;
-  border-radius: 15px;
-  background: #59AFFF;
-  margin: 10px 0;
-  border: none;
-}
-
-.section-two {
-  flex-direction: column;
-}
-
 button {
   cursor: pointer;
-}
-
-.howUse {
-  width: 81vw;
-  margin: 20px 0 20px 10px;
-  border-radius: 20px;
-  background: #F1F1F1;
-  padding: 10px;
 }

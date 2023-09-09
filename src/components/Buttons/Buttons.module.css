@@ -1,11 +1,11 @@
 .buttons {
     justify-content: space-between;
-    margin: 20px 0 20px 10px;
-    width: 82vw;
+    margin: 30px auto 20px auto;
+    width: 90%;
 }
 
 .buttons button {
-    width: 410px;
+    width: 25%;
     height: 54px;
     border-radius: 100px;
     background: #0085FF;
